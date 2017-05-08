@@ -26,3 +26,7 @@ Selecting the right DB for the job requires a lot of thought on a development pr
 These benefits often do not show themselves until very far down the road in development, so the most critical thing to do is periodically re-evaluate your data organization and needs.
 
 [Here is a well-informed article](https://www.sitepoint.com/sql-vs-nosql-differences/) that discusses the major differences and advantages of the two database types.
+
+## Moar SQL!
+
+Zeb has taken [this SQL tutorial](https://sqlzoo.net/) and found it very useful.  There a couple of poorly worded problems, but for the most part it is well organized and comprehensive.
