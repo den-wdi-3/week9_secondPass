@@ -8,13 +8,16 @@ The SEAN Stack is not a thing.  You will probably not find documentation on it, 
 
 ## Project 3 Folder Structure
 
-The folder structure for Project 3 will be almost identical to your structure for Project 2.  There will be `models` and `controllers` folders on your back end, also a `routes.js` file.  All of your front-end files should be served up in a `public` file.  However there are a few differences of note:
+The backend folder structure for Project 3 will be fairly similar to your structure for Project 2.  There will be `models` and `controllers` folders on your back end, also a `routes.js` file.  
 
-- Angular is centered around a central `index.html` file that cycles out different templates using `ng-view` and `ngRoute` or something similar.  
-  - Put this `index.html` inside your `public` folder so all you have to do is serve up the `public` folder, and the browser will load it by default.
-  - Since these templates are being generated with Angular on the front end, it is a good idea to put these templates inside a `templates` folder inside `public`, as opposed to putting them in the same folder as `server.js` on the back end as we did for project 2.
+All of your front-end files will be edited in `src` and compiled to a `dist` folder. However there are a few differences of note:
+
+- Angular is centered around a central `index.html` file that cycles out different templates using `router-outlet`, not server-side EJS or AJAX and DOM manipulation as you did in Project 2.
 - You will probably need a `dbSetup.js` file to kick off your DB connection to SQL which you did not need for Project 2.  See the [Sequelize lab](https://github.com/den-materials/modeling-tunr) for a sample of how this file should look.
-- This was true in Project 2, but is worth repeating.  **Put your `public` folder in the same folder as `server.js`.**  For security reasons, `server.js` can only serve up its own folder and things below it.
+- You have two main options for folder organization.
+  1. Separate your front and back end entirely.  Each will have its own folder, and serve up on its own port.
+  2. Build the same way we did for the [Angular Universal lab](https://github.com/den-materials/angular/blob/master/lectures/day-3/angular-universal.md) or [Sequelize lab](https://github.com/den-materials/modeling-tunr), with a `server.ts` file that serves up a `dist` folder.
+      - This was true in Project 2, but is worth repeating.  **Put your `server.ts` file at the same level as your `dist` folder.**  For security reasons, `server.ts` can only serve up its own folder and things below it.
 
 ## Mongo vs SQL
 
@@ -30,3 +33,12 @@ These benefits often do not show themselves until very far down the road in deve
 ## Moar SQL!
 
 Zeb has taken [this SQL tutorial](https://sqlzoo.net/) and found it very useful.  There a couple of poorly worded problems, but for the most part it is well organized and comprehensive.
+
+## FormControl vs FormGroup vs FormArray
+
+- [**FormControl**](https://angular.io/api/forms/FormControl) is a mechanism for validating form input in Angular.  It wraps around an input field to make sure the data coming in through it is the type of data we want (non-empty, max-length, etc.)
+- [**FormGroup**](https://angular.io/api/forms/FormGroup) and [**FormArray**](https://angular.io/api/forms/FormArray) are both ways to bundle up multiple **FormControl**s.  **FormGroup** does this as an object, **FormArray** does it as, well, an array.
+
+Why would we choose **FormGroup** or **FormArray**?  Well, in a nutshell, do you want to pass an Object to your data storage or an Array?  If you want some more specifics, check out [this article](https://stackoverflow.com/questions/41288928/when-to-use-formgroup-vs-formarray).
+
+You might not have seen these terms yet, because with **template-driven forms**, which we've been using in class, you get all of these features for free.  You can, however, configure your own **model-driven forms**.  [This tutorial](https://scotch.io/tutorials/using-angular-2s-model-driven-forms-with-formgroup-and-formcontrol) explains how to do this.
