@@ -49,3 +49,4 @@ Yup, Angular has a lot of pieces that can take a while to get your head around. 
 
 - [Team Treehouse Course](https://teamtreehouse.com/library/angular-basics-2) - a combination of videos and labs that is pretty well put together
 - [Angular Tour of Heroes Tutorial](https://angular.io/tutorial)
+- [Setting up an Observable](http://jasonwatmore.com/post/2016/12/01/angular-2-communicating-between-components-with-observable-subject)
