@@ -42,3 +42,10 @@ Zeb has taken [this SQL tutorial](https://sqlzoo.net/) and found it very useful.
 Why would we choose **FormGroup** or **FormArray**?  Well, in a nutshell, do you want to pass an Object to your data storage or an Array?  If you want some more specifics, check out [this article](https://stackoverflow.com/questions/41288928/when-to-use-formgroup-vs-formarray).
 
 You might not have seen these terms yet, because with **template-driven forms**, which we've been using in class, you get all of these features for free.  You can, however, configure your own **model-driven forms**.  [This tutorial](https://scotch.io/tutorials/using-angular-2s-model-driven-forms-with-formgroup-and-formcontrol) explains how to do this.
+
+## Angular Is Hard!
+
+Yup, Angular has a lot of pieces that can take a while to get your head around.  To make matters worse, with Angular 4+, you are on the cutting edge of technology, which means things are changing really quickly.  It can be really hard to find a good tutorial or course on Angular.  Here is a list of solid Angular resources.  Stay tuned for updates:
+
+- [Team Treehouse Course](https://teamtreehouse.com/library/angular-basics-2) - a combination of videos and labs that is pretty well put together
+- [Angular Tour of Heroes Tutorial](https://angular.io/tutorial)
