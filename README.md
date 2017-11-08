@@ -14,10 +14,8 @@ All of your front-end files will be edited in `src` and compiled to a `dist` fol
 
 - Angular is centered around a central `index.html` file that cycles out different templates using `router-outlet`, not server-side EJS or AJAX and DOM manipulation as you did in Project 2.
 - You will probably need a `dbSetup.js` file to kick off your DB connection to SQL which you did not need for Project 2.  See the [Sequelize lab](https://github.com/den-materials/modeling-tunr) for a sample of how this file should look.
-- You have two main options for folder organization.
-  1. Separate your front and back end entirely.  Each will have its own folder, and serve up on its own port.
-  2. Build the same way we did for the [Angular Universal lab](https://github.com/den-materials/angular/blob/master/lectures/day-3/angular-universal.md) or [Sequelize lab](https://github.com/den-materials/modeling-tunr), with a `server.ts` file that serves up a `dist` folder.
-      - This was true in Project 2, but is worth repeating.  **Put your `server.ts` file at the same level as your `dist` folder.**  For security reasons, `server.ts` can only serve up its own folder and things below it.
+- For folder organization locally, separate your front and back end entirely.  Each will have its own folder, and serve up on its own port.
+  - This was true in Project 2, but is worth repeating.  **Put your `server.js` file at the same level as your `dist` folder.**  For security reasons, `server.js` can only serve up its own folder and things below it.
 
 ## Mongo vs SQL
 
