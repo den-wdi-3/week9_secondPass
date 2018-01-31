@@ -48,3 +48,7 @@ Yup, Angular has a lot of pieces that can take a while to get your head around. 
 - [Angular Tour of Heroes Tutorial](https://angular.io/tutorial)
 - [Setting up an Observable](http://jasonwatmore.com/post/2016/12/01/angular-2-communicating-between-components-with-observable-subject)
 - [Simple Observable Example](http://embed.plnkr.co/CJNgwR8bhKv2qY1P8rGa)
+
+## Project 3 Starter
+
+Not sure how to get started on Project 3.  Take a look at your role in [this repo](https://github.com/den-wdi-3/week9_secondPass/blob/master/Project3.md) and make sure the basics are covered.  Then work out with your squad how you will get through the rest of project week.
