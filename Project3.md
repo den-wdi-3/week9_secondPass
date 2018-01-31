@@ -49,3 +49,9 @@ Divvy up the tasks below with your squad.
 
 - Put wireframes on README.md
 - Put interview results in README.md
+
+## Scrum
+
+- Decide on a consistent time for stand-ups
+- List the biggest blockers for the team
+- Find tutorials or external resources to help with tools not covered in class
