@@ -27,10 +27,25 @@ Divvy up the tasks below with your squad.
 - If you have one, test your 3rd Party API
   - Add Jasmine tests
 
-## GitHub
+## GitHub / Release
 
 - Create a repo for Project 3
 - Make a `README.md`
 - Make a `back-end` and `front-end` folder
 - Invite all team members as collaborators
 - Define branches (feature or team members)
+
+## Product
+
+- Create a Trello board
+  - Have a full set of MVP stories and stretch goals
+  - Size all stories\*
+  - Prioritize all stories
+  - Put all Project 3 rubric requirements in Trello
+  
+\* To clarify, it should **not** be the Product Manager's job to size stories, it should be a team decision based on how hard the team thinks the stories are.
+
+## UX
+
+- Put wireframes on README.md
+- Put interview results in README.md
